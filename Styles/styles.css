@@ -5,9 +5,17 @@
     --colour-four: #e7c8dd;
     --colour-five: #dbafc1;
 }
-header {
-    background-color: var(--colour-one);
-    text-align: start;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: -7.519px;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
 }
+li a{
+    display: block;
+    background-color: var(--colour-two);
+}
+li a:hover {
+    background-color: var(--colour-one);
+    color: white;
+  }
